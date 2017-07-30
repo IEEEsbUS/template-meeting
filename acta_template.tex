@@ -1,0 +1,84 @@
+\documentclass[11pt,twoside]{mins}
+\usepackage{lipsum}  % produces dummy text
+\usepackage{xhfill}  % produces dummy text
+
+\usepackage[utf8]{inputenc} 
+
+\setcommittee{SB Universidad de Sevilla}
+
+\setdate{day-month-year}
+\sethost{Host Name}
+\setsec{Secretary Name}
+
+\setmembers{\chair{Chair Name},\vicechair{ViceChair Name}, \rrpp{RRPP Name},  \secretary{Secretary Name}, \treasurer{Treasurer Name}, person1, person2, person3}
+
+\begin{document}
+\begin{minutes}
+
+% Show list
+% -------------------
+\begin{announcements}
+
+\item 
+Lorem
+
+\item
+Ipsum
+
+\item
+Dolor
+
+\end{announcements}
+% -------------------
+
+% Content
+% -------------------
+\begin{business}
+% ---------
+
+\item 
+\textbf{Lorem}\\
+\lipsum[1]
+
+\begin{itemize}
+\item
+\lipsum[2]
+\end{itemize}
+
+% ---------
+
+\item
+\textbf{Ipsum}\\
+\lipsum[3]
+
+% ---------
+
+\item
+\textbf{Dolor}\\
+\lipsum[4]
+
+\begin{itemize}
+\item
+\lipsum[5]
+
+\item
+\lipsum[6]
+
+\item
+\lipsum[7]
+\end{itemize}
+
+% ---------
+\end{business}
+% -------------------
+
+%
+%\begin{newbusiness}
+%\item 
+%\lipsum[9]
+%\end{newbusiness}
+%%
+\nextmeeting{day-month-year, hour:minute}
+
+\end{minutes}
+\end{document}
